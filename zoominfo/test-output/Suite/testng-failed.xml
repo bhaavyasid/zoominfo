@@ -3,12 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCase.RunZoomInfoOption2">
+      <class name="testCase.RunZoomInfoOption2ShowVideo">
         <methods>
           <include name="base"/>
           <include name="runtestcases"/>
         </methods>
-      </class> <!-- testCase.RunZoomInfoOption2 -->
+      </class> <!-- testCase.RunZoomInfoOption2ShowVideo -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

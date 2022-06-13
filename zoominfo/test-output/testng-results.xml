@@ -2,50 +2,38 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-05T14:25:49 IST" name="Suite" finished-at="2022-06-05T14:27:53 IST" duration-ms="123535">
+  <suite started-at="2022-06-13T20:05:17 IST" name="Suite" finished-at="2022-06-13T20:08:29 IST" duration-ms="191566">
     <groups>
     </groups>
-    <test started-at="2022-06-05T14:25:49 IST" name="Test" finished-at="2022-06-05T14:27:53 IST" duration-ms="123535">
+    <test started-at="2022-06-13T20:05:17 IST" name="Test" finished-at="2022-06-13T20:08:29 IST" duration-ms="191566">
       <class name="testCase.RunZoomInfoOption2ShowVideo">
-        <test-method is-config="true" signature="base()[pri:0, instance:testCase.RunZoomInfoOption2ShowVideo@506ae4d4]" started-at="2022-06-05T14:26:51 IST" name="base" finished-at="2022-06-05T14:26:54 IST" duration-ms="3324" status="PASS">
+        <test-method is-config="true" signature="base()[pri:0, instance:testCase.RunZoomInfoOption2ShowVideo@506ae4d4]" started-at="2022-06-13T20:07:04 IST" name="base" finished-at="2022-06-13T20:07:08 IST" duration-ms="3718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- base -->
-        <test-method signature="runtestcases()[pri:0, instance:testCase.RunZoomInfoOption2ShowVideo@506ae4d4]" started-at="2022-06-05T14:26:54 IST" name="runtestcases" finished-at="2022-06-05T14:27:07 IST" duration-ms="12618" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtestcases -->
-      </class> <!-- testCase.RunZoomInfoOption2ShowVideo -->
-      <class name="testCase.RunZoomInfoOption2">
-        <test-method is-config="true" signature="base()[pri:0, instance:testCase.RunZoomInfoOption2@b9b00e0]" started-at="2022-06-05T14:26:45 IST" name="base" finished-at="2022-06-05T14:26:48 IST" duration-ms="3220" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- base -->
-        <test-method signature="runtestcases()[pri:0, instance:testCase.RunZoomInfoOption2@b9b00e0]" started-at="2022-06-05T14:26:48 IST" name="runtestcases" finished-at="2022-06-05T14:26:51 IST" duration-ms="2887" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="runtestcases()[pri:0, instance:testCase.RunZoomInfoOption2ShowVideo@506ae4d4]" started-at="2022-06-13T20:07:08 IST" name="runtestcases" finished-at="2022-06-13T20:07:29 IST" duration-ms="20698" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[stale element reference: element is not attached to the page document
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#insent\-launcher\-icon\-container"}
   (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-4NVERM4', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'DESKTOP-4NVERM4', ip: '192.168.32.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [771d3035504c8732b4d71049ce7182c0, clickElement {id=779981d1-998f-4e8f-985e-9f5624be88af}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sidde\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53626}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53626/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (771d3035504c8732b4d71049ce7182c0)] -> id: insent-launcher-icon-container]
-Session ID: 771d3035504c8732b4d71049ce7182c0]]>
+Command: [acd4652111dbdac7a111fe1b347ba008, findElement {using=id, value=insent-launcher-icon-container}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sidde\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63333/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: acd4652111dbdac7a111fe1b347ba008]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#insent\-launcher\-icon\-container"}
   (Session info: chrome=102.0.5005.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'DESKTOP-4NVERM4', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+System info: host: 'DESKTOP-4NVERM4', ip: '192.168.32.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [771d3035504c8732b4d71049ce7182c0, clickElement {id=779981d1-998f-4e8f-985e-9f5624be88af}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sidde\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53626}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53626/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (771d3035504c8732b4d71049ce7182c0)] -> id: insent-launcher-icon-container]
-Session ID: 771d3035504c8732b4d71049ce7182c0
+Command: [acd4652111dbdac7a111fe1b347ba008, findElement {using=id, value=insent-launcher-icon-container}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\sidde\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63333/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: acd4652111dbdac7a111fe1b347ba008
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -58,10 +46,12 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at Pages.Chatbot.chatbot2(Chatbot.java:29)
-at testCase.RunZoomInfoOption2.runtestcases(RunZoomInfoOption2.java:20)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at Pages.Chatbot.chatbot2flow2(Chatbot.java:37)
+at testCase.RunZoomInfoOption2ShowVideo.runtestcases(RunZoomInfoOption2ShowVideo.java:15)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -92,51 +82,61 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runtestcases -->
+      </class> <!-- testCase.RunZoomInfoOption2ShowVideo -->
+      <class name="testCase.RunZoomInfo">
+        <test-method is-config="true" signature="base()[pri:0, instance:testCase.RunZoomInfo@43dac38f]" started-at="2022-06-13T20:05:17 IST" name="base" finished-at="2022-06-13T20:05:25 IST" duration-ms="7295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method signature="runtestcases()[pri:0, instance:testCase.RunZoomInfo@43dac38f]" started-at="2022-06-13T20:05:25 IST" name="runtestcases" finished-at="2022-06-13T20:06:07 IST" duration-ms="42056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runtestcases -->
+      </class> <!-- testCase.RunZoomInfo -->
+      <class name="testCase.RunZoomInfoOption4">
+        <test-method is-config="true" signature="base()[pri:0, instance:testCase.RunZoomInfoOption4@72e5a8e]" started-at="2022-06-13T20:07:50 IST" name="base" finished-at="2022-06-13T20:07:55 IST" duration-ms="4968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method signature="runtestcases()[pri:0, instance:testCase.RunZoomInfoOption4@72e5a8e]" started-at="2022-06-13T20:07:55 IST" name="runtestcases" finished-at="2022-06-13T20:08:29 IST" duration-ms="33746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runtestcases -->
+      </class> <!-- testCase.RunZoomInfoOption4 -->
+      <class name="testCase.RunZoomInfoOption3">
+        <test-method is-config="true" signature="base()[pri:0, instance:testCase.RunZoomInfoOption3@7d4f9aae]" started-at="2022-06-13T20:07:29 IST" name="base" finished-at="2022-06-13T20:07:32 IST" duration-ms="3638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method signature="runtestcases()[pri:0, instance:testCase.RunZoomInfoOption3@7d4f9aae]" started-at="2022-06-13T20:07:32 IST" name="runtestcases" finished-at="2022-06-13T20:07:50 IST" duration-ms="17664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runtestcases -->
+      </class> <!-- testCase.RunZoomInfoOption3 -->
+      <class name="testCase.RunZoomInfoOption2">
+        <test-method is-config="true" signature="base()[pri:0, instance:testCase.RunZoomInfoOption2@b9b00e0]" started-at="2022-06-13T20:06:30 IST" name="base" finished-at="2022-06-13T20:06:36 IST" duration-ms="5579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- base -->
+        <test-method signature="runtestcases()[pri:0, instance:testCase.RunZoomInfoOption2@b9b00e0]" started-at="2022-06-13T20:06:36 IST" name="runtestcases" finished-at="2022-06-13T20:07:04 IST" duration-ms="28395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runtestcases -->
       </class> <!-- testCase.RunZoomInfoOption2 -->
-      <class name="testCase.runZoomInfoOption4">
-        <test-method is-config="true" signature="base()[pri:0, instance:testCase.runZoomInfoOption4@72e5a8e]" started-at="2022-06-05T14:27:27 IST" name="base" finished-at="2022-06-05T14:27:30 IST" duration-ms="3279" status="PASS">
+      <class name="testCase.RunZoomInfoOption1Flow2">
+        <test-method is-config="true" signature="base()[pri:0, instance:testCase.RunZoomInfoOption1Flow2@13fd2ccd]" started-at="2022-06-13T20:06:07 IST" name="base" finished-at="2022-06-13T20:06:10 IST" duration-ms="3660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- base -->
-        <test-method signature="runtestcases()[pri:0, instance:testCase.runZoomInfoOption4@72e5a8e]" started-at="2022-06-05T14:27:30 IST" name="runtestcases" finished-at="2022-06-05T14:27:53 IST" duration-ms="22588" status="PASS">
+        <test-method signature="runtestcases()[pri:0, instance:testCase.RunZoomInfoOption1Flow2@13fd2ccd]" started-at="2022-06-13T20:06:10 IST" name="runtestcases" finished-at="2022-06-13T20:06:30 IST" duration-ms="20048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runtestcases -->
-      </class> <!-- testCase.runZoomInfoOption4 -->
-      <class name="testCase.runZoomInfo">
-        <test-method is-config="true" signature="base()[pri:0, instance:testCase.runZoomInfo@43dac38f]" started-at="2022-06-05T14:25:49 IST" name="base" finished-at="2022-06-05T14:25:54 IST" duration-ms="4443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- base -->
-        <test-method signature="runtestcases()[pri:0, instance:testCase.runZoomInfo@43dac38f]" started-at="2022-06-05T14:25:54 IST" name="runtestcases" finished-at="2022-06-05T14:26:25 IST" duration-ms="31199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtestcases -->
-      </class> <!-- testCase.runZoomInfo -->
-      <class name="testCase.runZoomInfoOption3">
-        <test-method is-config="true" signature="base()[pri:0, instance:testCase.runZoomInfoOption3@7d4f9aae]" started-at="2022-06-05T14:27:07 IST" name="base" finished-at="2022-06-05T14:27:10 IST" duration-ms="3694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- base -->
-        <test-method signature="runtestcases()[pri:0, instance:testCase.runZoomInfoOption3@7d4f9aae]" started-at="2022-06-05T14:27:10 IST" name="runtestcases" finished-at="2022-06-05T14:27:27 IST" duration-ms="16498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtestcases -->
-      </class> <!-- testCase.runZoomInfoOption3 -->
-      <class name="testCase.runZoomInfoOption1Flow2">
-        <test-method is-config="true" signature="base()[pri:0, instance:testCase.runZoomInfoOption1Flow2@13fd2ccd]" started-at="2022-06-05T14:26:25 IST" name="base" finished-at="2022-06-05T14:26:28 IST" duration-ms="3351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- base -->
-        <test-method signature="runtestcases()[pri:0, instance:testCase.runZoomInfoOption1Flow2@13fd2ccd]" started-at="2022-06-05T14:26:28 IST" name="runtestcases" finished-at="2022-06-05T14:26:45 IST" duration-ms="16363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runtestcases -->
-      </class> <!-- testCase.runZoomInfoOption1Flow2 -->
+      </class> <!-- testCase.RunZoomInfoOption1Flow2 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
